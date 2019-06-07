@@ -29,9 +29,9 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-source-drupal`,
+      resolve: `http://dev-nerdstein.pantheonsite.io/`,
       options: {
-        baseUrl: `https://d0s4q.ply.st`, // use your simplytest url here
+        baseUrl: `http://dev-nerdstein.pantheonsite.io/`, // use your simplytest url here
         apiBase: `jsonapi`, // optional, defaults to `jsonapi`
       },
     },
