@@ -29,7 +29,7 @@ module.exports = {
       },
     },
     {
-      resolve: `http://dev-nerdstein.pantheonsite.io/`,
+      resolve: `gatsby-source-drupal`,
       options: {
         baseUrl: `http://dev-nerdstein.pantheonsite.io/`, // use your simplytest url here
         apiBase: `jsonapi`, // optional, defaults to `jsonapi`
